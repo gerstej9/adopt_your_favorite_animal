@@ -3,18 +3,39 @@
     <head> 
         <title>Adopt Your Favorite Animal</title>
         <link href="style.css" type="text/css" rel= "stylesheet"/>
+        <script>
+            let animal = prompt("What's your Favorite Animal?", "Dragon");
+
+            alert(`You love ${animal}'s that really cool!`); // You are 100 years old!
+
+        </script>
     </head>
 
     <body>
+
+
+        <button onclick="myFunction()">Click Here if You Like Animals</button>
+
+        <script>
+        function myFunction() {
+        alert("That's Great! We Do Too!!!");
+        }
+        </script>
     <header>
         <h1> Adopt Your</h1>
         <h2> Favorite Animal</h2>
 
         <nav>
             <ul>
-                <li> Favorite Animals</li>
-                <li> Where to Adopt</li>
-                <li> Positive Benefits</li>
+                <li> 
+                    <a href = "https://www.listchallenges.com/favorite-animals">Favorite Animals
+                    </a>
+                </li>
+                <li> 
+                    <a href= "http://www.magicalanimaladoptionagency.com/petcare.html">Where to Adopt</a></li>
+                <li> 
+                    <a href = "https://www.humanesociety.org/resources/top-reasons-adopt-pet">Positive Benefits</a>
+                </li>
             </ul>
         </nav>
 
@@ -22,6 +43,7 @@
 
     <section>
         <article>
+
             Pommy ipsum grab a jumper Kate and Will well fit bogroll copped a bollocking I'm off to Bedfordshire, smeg head barmy ey up duck bloody mary chinwag. Bit of alright bangers and mash  and all Essex girls in a pickle Queen Elizabeth Prince Charles, picalilly squiffy challenge you to a duel Union Jack sweet fanny adams a reet bobbydazzler, man and his whippet double dutch proper sorted it scatterbrained is she 'avin a laugh. A week on Sunday sorted it Essex girls the dog's dinner Queen Elizabeth tosser, lass full English breakast sod's law. Pot noodle eton mess treacle leisurely had a barney with the inlaws, plum pudding shepherd's pie.
             <img src= 'https://images.unsplash.com/photo-1508454868649-abc39873d8bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80'width="1000" height="400" class ="center"><br>
             <meta name="author" content="Mathew Schwartz">
@@ -51,6 +73,12 @@
     <footer>
         <h3> Contact</h3>
         <h5> To contact the favorite animal adoption center please call 555-MYFAVORITEANIMAL</h5>
+        <p id="demo"></p>
+
+        <script>
+        var d = new Date();
+        document.getElementById("demo").innerHTML = d;
+        </script>
     </footer>
     </body>
 </html>
