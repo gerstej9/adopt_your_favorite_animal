@@ -1,0 +1,71 @@
+/* color scheme
+#18A118
+#4824ED
+#0CED0C
+#ED7C24
+#A14600 */
+
+
+body {
+    font-family: fantasy;
+    background-color: #0CED0C;
+    }
+header {
+    text-align: center;
+    background-color: #4824ED;
+    color: #0CED0C;
+    
+
+    }
+nav {
+    background-color: #3cb43c;
+    color: black;
+    ;
+    }
+
+nav ul li {
+
+    display: inline-block;
+    margin: 20px;
+    font-size: 24px;
+    }
+
+p {
+    background-color: #ED7C24;
+    text-align: right;
+
+    }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    }
+
+.right {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    width: 50%;
+    }
+    
+}
+
+.left {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    width: 50%;
+    
+    }
+a{
+    background-color: rgb(29, 158, 29);
+    text-align: right;
+    
+    }
+
+footer {
+        background-color: #3cb43c;
+        color: black;
+        text-align: center;
+    }
