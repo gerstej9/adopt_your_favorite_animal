@@ -32,7 +32,7 @@ nav ul li {
 
 p {
     background-color: #ED7C24;
-    text-align: right;
+
 
     }
 .center {
@@ -42,25 +42,13 @@ p {
     width: 75%;
     }
 
-.right {
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
-    width: 50%;
-    }
-    
-}
 
-.left {
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
-    width: 50%;
+
     
     }
 a{
     background-color: rgb(29, 158, 29);
-    text-align: right;
+
     
     }
 
@@ -68,6 +56,26 @@ footer {
         background-color: #3cb43c;
         color: black;
         text-align: center;
+    }
+
+  .container {
+    border: 3px solid blue;
+    padding: 20px 40px 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    background-color: #ED7C24;
+    &__image {
+        width: 400%;
+        margin: 30px 30px 30px 30px;
+        float: left;
+        margin-left: auto;
+        margin-right; 0;
+    }
+
+    &__text {
+        display: inline;
     }
 
 
